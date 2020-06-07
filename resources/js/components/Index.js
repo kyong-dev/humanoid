@@ -14,7 +14,6 @@ function Index() {
         </div>
     );
 }
-
 export default Index;
 
 if (document.getElementById('index')) {

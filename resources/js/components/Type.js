@@ -102,8 +102,6 @@ function Type(props) {
                                             .catch(function (error) {
                                                 console.log(error);
                                             });
-
-                                        
                                     }, 600);
                                 }),
                             onRowAdd: newData =>

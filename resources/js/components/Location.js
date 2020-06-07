@@ -89,8 +89,8 @@ function Location(props) {
     };
 
     const handleDescription = event => {
-        //Presentations: between 100 - 150 wpm for a comfortable pace
-        //Assume Robot speaks 2 words every second
+        // Presentations: between 100 - 150 wpm for a comfortable pace
+        // Assume Robot speaks 2 words every second
         setDescription(event.target.value);
         setMinTime(event.target.value.split(" ").length / 2);
     };
@@ -110,7 +110,7 @@ function Location(props) {
                 min_time: minTime
             })
             .then(function (response) {
-                //List update
+                // List update
                 setLocations([
                     ...locations,
                     {
@@ -132,7 +132,6 @@ function Location(props) {
     };
 
     const copy = event => {
-        // copy
         event.preventDefault();
         setx_axis(parseFloat(x_axis).toFixed(2));
         sety_axis(parseFloat(y_axis).toFixed(2));
@@ -224,8 +223,6 @@ function Location(props) {
             .catch(function (error) {
                 console.log(error);
             });
-
-
 
         // change buttons' state
         cancel();

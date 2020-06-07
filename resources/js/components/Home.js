@@ -81,7 +81,6 @@ function Home(props) {
         </React.Fragment>
     );
 }
-
 export default Home;
 
 if (document.getElementById('home')) {
