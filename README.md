@@ -57,9 +57,30 @@ $ php artisan migrate
 6. React 
 ```
 $ npm run development
+or
+$ yarn dev
 ```
 
 7. Serve
 ```
 $ php artisan serve
+or
+$ yarn serve
 ```
+
+7. Test
+```
+$ vendor/bin/phpunit
+or
+$ yarn test
+```
+
+# Product
+• create accounts for new admins and assistants
+![Alt Text](readme/gif/register.gif "Product Demo")
+
+
+## Scrum (Software Development Framework)
+### Tools for implementation
+#### Trello Board
+![Alt text](readme/trello-humanoid.png?raw=true "Trello Board")

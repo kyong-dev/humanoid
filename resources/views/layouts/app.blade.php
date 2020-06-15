@@ -94,7 +94,7 @@
             @yield('content')
         </main>
 
-        <footer style="bottom: 0; position: fixed; height: 2.5rem; width: 40%; left: 50%; margin-left: -20%; ">
+        <footer style="bottom: 0; position: fixed; height: 2.5rem; width: 40%; left: 50%; margin-left: -10%; ">
             <div>
                 Copyright © KingKong and Friends <?php echo date("Y"); ?>.
             </div>
