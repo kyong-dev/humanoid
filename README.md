@@ -19,10 +19,10 @@ using text-to-voice feature)</br>
 • Edit existing locations (name, x-y coordinates, description, min. time)</br>
 • Copy existing locations</br>
 • Remove existing locations</br>
+• Edit the set of tour types – add new types, remove the types that are unnecessary, change the type label</br>
 • Create a new tour out of the specified locations: the tour should be specified by its name, type, min. duration (which is a
 sum of the minimal times to spend at each location)</br>
-• Edit the set of tour types – add new types, remove the types that are unnecessary, change the type label</br>
-• Edit existing tours (add or remove locations, edit the tour name</br>
+• Edit existing tours (add or remove locations, edit type labels)</br>
 • Remove existing tours</br>
 
 ## Setting up
@@ -80,16 +80,31 @@ $ yarn test
 ![Alt Text](readme/gif/register.gif "Product Demo")
 
 #### • Deactivate admin and assistant users
-#### • Add new locations to the set of locations: a location should be specified by its name, x-y coordinates, description, and themin. time to be spent on the location (the time depends on the length of the description, as the robot will “pronounce” it using text-to-voice feature)
-#### • Edit existing locations (name, x-y coordinates, description, min. time)
-#### • Copy existing locations
-#### • Remove existing locations
-#### • Create a new tour out of the specified locations: the tour should be specified by its name, type, min. duration (which is a sum of the minimal times to spend at each location)
-#### • Edit the set of tour types – add new types, remove the types that are unnecessary, change the type label
-#### • Edit existing tours (add or remove locations, edit the tour name
-#### • Remove existing tours</br>
+![Alt Text](readme/gif/deactivate.gif "Product Demo")
 
-![Alt Text](readme/gif/register.gif "Product Demo")
+#### • Add new locations to the set of locations: a location should be specified by its name, x-y coordinates, description, and themin. time to be spent on the location (the time depends on the length of the description, as the robot will “pronounce” it using text-to-voice feature)
+![Alt Text](readme/gif/add_location.gif "Product Demo")
+
+#### • Edit existing locations (name, x-y coordinates, description, min. time)
+![Alt Text](readme/gif/edit_location.gif "Product Demo")
+
+#### • Copy existing locations
+![Alt Text](readme/gif/copy_location.gif "Product Demo")
+
+#### • Remove existing locations
+![Alt Text](readme/gif/delete_location.gif "Product Demo")
+
+#### • Edit the set of tour types – add new types, remove the types that are unnecessary, change the type label
+![Alt Text](readme/gif/edit_tour.gif "Product Demo")
+
+#### • Create a new tour out of the specified locations: the tour should be specified by its name, type, min. duration (which is a sum of the minimal times to spend at each location)
+![Alt Text](readme/gif/add_tour.gif "Product Demo")
+
+#### • Edit existing tours (add or remove locations, edit type labels)
+![Alt Text](readme/gif/edit_tour.gif "Product Demo")
+
+#### • Remove existing tours</br>
+![Alt Text](readme/gif/delete_tour.gif "Product Demo")
 
 
 ## Scrum (Software Development Framework)
