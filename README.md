@@ -123,5 +123,4 @@ $ yarn test
 ![Alt text](readme/trello-humanoid.png?raw=true "Trello Board")
 
 ### UML Diagram
-#### Class Diagram
 ![Alt text](readme/class-diagram.png?raw=true "Class Diagram")
