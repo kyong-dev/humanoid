@@ -108,7 +108,7 @@ $ yarn test
 
 
 ## Scrum (Software Development Framework)
-### Documetation Covered
+### Covered Documetation 
 ##### • Product Backlog
 ##### • Project Charter
 ##### • Sprint Backlog
