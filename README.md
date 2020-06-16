@@ -22,7 +22,7 @@ using text-to-voice feature)</br>
 • Edit the set of tour types – add new types, remove the types that are unnecessary, change the type label</br>
 • Create a new tour out of the specified locations: the tour should be specified by its name, type, min. duration (which is a
 sum of the minimal times to spend at each location)</br>
-• Edit existing tours (add or remove locations, edit type labels)</br>
+• Edit existing tours - add or remove locations, edit type labels</br>
 • Remove existing tours</br>
 
 ## Setting up
@@ -95,12 +95,12 @@ $ yarn test
 ![Alt Text](readme/gif/delete_location.gif "Product Demo")
 
 #### • Edit the set of tour types – add new types, remove the types that are unnecessary, change the type label
-![Alt Text](readme/gif/edit_tour.gif "Product Demo")
+![Alt Text](readme/gif/type.gif "Product Demo")
 
 #### • Create a new tour out of the specified locations: the tour should be specified by its name, type, min. duration (which is a sum of the minimal times to spend at each location)
 ![Alt Text](readme/gif/add_tour.gif "Product Demo")
 
-#### • Edit existing tours (add or remove locations, edit type labels)
+#### • Edit existing tours - add or remove locations, edit type labels
 ![Alt Text](readme/gif/edit_tour.gif "Product Demo")
 
 #### • Remove existing tours</br>
@@ -108,6 +108,20 @@ $ yarn test
 
 
 ## Scrum (Software Development Framework)
+### Documetation Covered
+##### • Product Backlog
+##### • Project Charter
+##### • Sprint Backlog
+##### • Sprint Planning Notes
+##### • Sprint Retro Meeting Notes
+##### • User Story
+##### • Burndown Chart
+##### • Test Case
+
 ### Tools for implementation
 #### Trello Board
 ![Alt text](readme/trello-humanoid.png?raw=true "Trello Board")
+
+### UML Diagram
+#### Class Diagram
+![Alt text](readme/class-diagram.png?raw=true "Class Diagram")
