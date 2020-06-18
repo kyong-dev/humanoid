@@ -10,6 +10,9 @@ Humanoid Management System is a web application that can be used to manage tour 
 - [MATERIAL-UI](https://material-ui.com/).
 - [Bootstrap](https://getbootstrap.com/).
 
+## Development & Deployment Environment
+Development Environment: Ubuntu 18.04
+
 # Requirements
 • Create accounts for new admins and assistants</br>
 • Deactivate admin and assistant users</br>
